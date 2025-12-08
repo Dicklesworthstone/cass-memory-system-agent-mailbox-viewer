@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="refresh" content="0; url=./viewer/" />
+  <title>MCP Agent Mail Viewer</title>
+  <link rel="canonical" href="./viewer/" />
+  <style>
+    :root {
+      color-scheme: light dark;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #0f172a;
+      color: #f8fafc;
+      display: grid;
+      place-items: center;
+      min-height: 100vh;
+    }
+
+    main {
+      text-align: center;
+      padding: 2.5rem;
+      border-radius: 1.25rem;
+      background: rgba(15, 23, 42, 0.85);
+      box-shadow: 0 25px 50px -12px rgba(15, 23, 42, 0.65);
+      max-width: 32rem;
+      backdrop-filter: blur(18px);
+    }
+
+    h1 {
+      margin-bottom: 1rem;
+      font-size: clamp(1.75rem, 5vw, 2.5rem);
+      font-weight: 700;
+      color: #e0e7ff;
+    }
+
+    p {
+      margin: 0.75rem 0;
+      line-height: 1.6;
+      color: rgba(226, 232, 240, 0.88);
+    }
+
+    a {
+      color: #6366f1;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>MCP Agent Mail Viewer</h1>
+    <p>You are being redirected to the hosted viewer experience.</p>
+    <p>If you are not redirected automatically, <a href="./viewer/">click here to open the viewer</a>.</p>
+  </main>
+  <script>
+    try {
+      const target = new URL("./viewer/", window.location.href);
+      window.location.replace(target.toString());
+    } catch (error) {
+      window.location.href = "./viewer/";
+    }
+  </script>
+</body>
+
+</html>

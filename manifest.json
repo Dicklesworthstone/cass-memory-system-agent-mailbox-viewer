@@ -1,0 +1,101 @@
+{
+  "attachments": {
+    "config": {
+      "detach_threshold": 26214400,
+      "inline_threshold": 65536
+    },
+    "items": [],
+    "stats": {
+      "bytes_copied": 0,
+      "copied": 0,
+      "externalized": 0,
+      "inline": 0,
+      "missing": 0
+    }
+  },
+  "database": {
+    "chunk_manifest": null,
+    "chunked": false,
+    "fts_enabled": false,
+    "path": "mailbox.sqlite3",
+    "sha256": "5db45cc93418337ef43de8411c5544544a2d2bca6f55a1e07c5d26ff599996b7",
+    "size_bytes": 1914880
+  },
+  "export_config": {
+    "chunk_size": 4194304,
+    "chunk_threshold": 20971520,
+    "detach_threshold": 26214400,
+    "inline_threshold": 65536,
+    "projects": [
+      "/Users/jemanuel/projects/cass_memory_system"
+    ],
+    "scrub_preset": "standard"
+  },
+  "exporter_version": "prototype",
+  "generated_at": "2025-12-08T05:38:35.169095+00:00",
+  "hosting": {
+    "detected": [
+      {
+        "id": "github_pages",
+        "signals": [
+          "Git remote: https://github.com/Dicklesworthstone/mcp_agent_mail"
+        ],
+        "summary": "Deploy the bundle via docs/ or gh-pages branch with coi-serviceworker.js for cross-origin isolation.",
+        "title": "GitHub Pages"
+      }
+    ]
+  },
+  "notes": [
+    "Prototype manifest. Viewer asset Subresource Integrity hashes recorded under viewer.sri.",
+    "Viewer scaffold with diagnostics is bundled; SPA search/thread views arrive in upcoming milestones."
+  ],
+  "project_scope": {
+    "included": [
+      {
+        "human_key": "/Users/jemanuel/projects/cass_memory_system",
+        "slug": "users-jemanuel-projects-cass-memory-system"
+      }
+    ],
+    "removed_count": 3,
+    "requested": [
+      "/Users/jemanuel/projects/cass_memory_system"
+    ]
+  },
+  "schema_version": "0.1.0",
+  "scrub": {
+    "ack_flags_cleared": 494,
+    "agent_links_removed": 131,
+    "agents_pseudonymized": 0,
+    "agents_total": 71,
+    "attachments_cleared": 0,
+    "attachments_sanitized": 0,
+    "bodies_redacted": 0,
+    "file_reservations_removed": 328,
+    "preset": "standard",
+    "pseudonym_salt": "standard",
+    "recipients_cleared": 1099,
+    "secrets_replaced": 0
+  },
+  "viewer": {
+    "messages": "viewer/data/messages.json",
+    "meta": "viewer/data/meta.json",
+    "meta_info": {
+      "fts_enabled": false,
+      "generated_at": "2025-12-08T05:38:35.144163+00:00",
+      "message_count": 494,
+      "messages_cached": 494
+    },
+    "sri": {
+      "viewer/coi-serviceworker.js": "sha256-R2oINUqmsGw2NNoDnP4bRPXuao545zv2uQOJOlR0fKM=",
+      "viewer/preview-reload.js": "sha256-JiqrRbkQE/Ulhexnfzz1JG2U1Te2IfB+7duXZGvqPiE=",
+      "viewer/styles.css": "sha256-vKQhZyIfa5n5QyCbMT881G7F9qjdO6ZOMhK2aquuBy0=",
+      "viewer/vendor/clusterize.min.css": "sha256-IoY0mRl15723XeZvl/t8zDwMQwuZ8ZkZLnmcCgZBgRM=",
+      "viewer/vendor/clusterize.min.js": "sha256-kZrY+ddUOM0611/m0WOv4sSCBjS1SX32kf23mZ+dXyk=",
+      "viewer/vendor/dompurify.min.js": "sha256-0kaYYq3qitkkVZpP/6uKTJwfTpqFNM6OHDbsaYzw9Uw=",
+      "viewer/vendor/marked.min.js": "sha256-iiOIwxmH8YPwUHaWKofAvi6NTUI9pec6g05elbtCB+8=",
+      "viewer/vendor/sql-wasm.js": "sha256-9cBAQDHMih4tbYVuFUU2d15OxSC1Rx0AMG6D1O3rn8I=",
+      "viewer/vendor/sql-wasm.wasm": "sha256-BzQVXIPkk5g9Hy/1sJpPq241oy6UScfk5UV1ZDn2LXM=",
+      "viewer/viewer.js": "sha256-K3svdmrj5choVONRc8tFhLbSXeLJ78+H2njkNDUxB3w="
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "algorithm": "ed25519",
+  "generated_at": "2025-12-08T05:38:35.949277+00:00",
+  "manifest_sha256": "b80f4d48795a78995c493628c0e069a05a9644ad70b6614edfb86ed44dd8d59f",
+  "public_key": "nzJIimoMC+LcvmTeNLh+3+tUNKy8EfxP0GJhNp7VNjY=",
+  "signature": "g1odvakGfGL50kmJqICpXiWnbn2i4HLPe9VqO7rEn1CFSKi4fWMHLJcuZszqZ2i/TftcU/qpNFGXuuqxoLVXAA=="
+}

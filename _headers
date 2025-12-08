@@ -1,0 +1,24 @@
+# Cross-Origin Isolation headers for OPFS and SharedArrayBuffer support
+# Compatible with Cloudflare Pages and Netlify
+# See: https://web.dev/coop-coep/
+
+/*
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Embedder-Policy: require-corp
+
+# Allow viewer assets to be loaded
+/viewer/*
+  Cross-Origin-Resource-Policy: same-origin
+
+# SQLite database and chunks
+/*.sqlite3
+  Cross-Origin-Resource-Policy: same-origin
+  Content-Type: application/x-sqlite3
+
+/chunks/*
+  Cross-Origin-Resource-Policy: same-origin
+  Content-Type: application/octet-stream
+
+# Attachments
+/attachments/*
+  Cross-Origin-Resource-Policy: same-origin
